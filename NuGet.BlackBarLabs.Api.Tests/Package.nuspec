@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BlackBarLabs.Api.Tests</id>
+    <version>0.0.1</version>
+    <title>BlackBarLabs.Api.Tests</title>
+    <authors>josh</authors>
+    <owners></owners>
+    <description>
+      Extensions for testing ASP.NET MVC controllers and resources
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      Extensions for testing ASP.NET MVC controllers and resources
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://nuget.org/packages/NuGet.BlackBarLabs.Api.Tests</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://unlicense.org/UNLICENSE</licenseUrl>
+    <copyright>Copyright  2016</copyright>
+    <dependencies>
+      <dependency id="BlackBarLabs.Api" version="0.1.2" />
+    </dependencies>
+    <references></references>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>

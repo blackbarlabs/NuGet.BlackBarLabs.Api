@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BlackBarLabs.Api</id>
+    <version>0.1.6</version>
+    <title>BlackBarLabs.Api</title>
+    <authors>East Five, LLC, BlackBarLabs</authors>
+    <owners>East Five, LLC</owners>
+    <description>
+      Extensions for ASP.NET MVC controllers and resources
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      Extensions for ASP.NET MVC controllers and resources
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://nuget.org/packages/NuGet.BlackBarLabs.Api</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://unlicense.org/UNLICENSE</licenseUrl>
+    <copyright>Copyright  2016</copyright>
+    <dependencies>
+        <group targetFramework="net40">
+          <dependency id="Newtonsoft.Json" version="7.0.0.0" />
+          <dependency id="Microsoft.AspNet.Mvc" version="5.2.3.0" />
+          <dependency id="Microsoft.AspNet.WebApi" version="5.2.3.0" />
+        </group>
+    </dependencies>
+    <references></references>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>

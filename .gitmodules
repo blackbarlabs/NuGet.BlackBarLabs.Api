@@ -1,0 +1,6 @@
+[submodule "BlackBarLabs.Api"]
+	path = BlackBarLabs.Api
+	url = git@github.com:blackbarlabs/BlackBarLabs.Api.git
+[submodule "BlackBarLabs.Web"]
+	path = BlackBarLabs.Web
+	url = git@github.com:blackbarlabs/BlackBarLabs.Web.git
